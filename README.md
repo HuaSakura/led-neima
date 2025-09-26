@@ -23,6 +23,9 @@ led-neima/
 │   └── x86_64/          # x86_64 架构的库文件
 │       └── libledplayer7.so
 │
+├── tools/               # 辅助工具目录
+│   └── 内码协议.exe      # 协议相关工具 (Windows 可执行文件)
+│
 ├── build.sh             # 构建脚本 (自动化编译、安装、部署用)
 ├── go.mod               # Go Modules 依赖配置文件
 ├── main.go              # 项目入口文件 (Go 语言主程序)
